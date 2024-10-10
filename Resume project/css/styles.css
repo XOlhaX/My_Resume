@@ -1,0 +1,186 @@
+body{
+  background-color: #41413d;
+  padding: 60.8px 0px 0px 40px;
+  font-family: "Inter", sans-serif;
+  color:#ffffff;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.name-head{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.name{
+font-size: 60px;
+margin-bottom: 0;
+margin-top: 0;
+}
+
+.position{
+font-size: 40px;
+font-style: italic;
+margin-bottom: 20px;
+margin-top: 8px;
+}
+
+/* Main content */
+.main-content{
+  color: #000;
+  padding-left: 60px;
+  padding-right: 40px;
+  padding-bottom: 0px;
+  padding-top: 16px;
+  box-sizing: border-box;
+  background: #ffffff
+}
+
+/* Sidebar */
+.sidebar{
+  background: #41413d; 
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  width: 600px;
+}
+
+.sidebar-content{
+  padding-top: 16px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+/* Contacts */
+.title{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.link{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+  padding-right: 16px;
+}
+
+.contacts-item{
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/* Skills */
+.skills-list{
+  padding-left: 24px;
+}
+
+.list-item{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+/* Main content */
+.my-desc{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* My projects */
+.container{
+  margin-bottom: 40px;
+}
+
+.project-name{
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-decoration-line: underline;
+}
+
+/* Work experience */
+.work-experience-company{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.work-position{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* languages */
+.languages{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+@media screen and (max-width: 960px) {
+  body{
+    padding: 24px 0px 0px 20px;
+  }
+
+  .main-content{
+    padding: 8px 20px 8px 20px;
+  }
+
+  .sidebar{
+    width: 600px;
+  }
+
+  .sidebar-content{
+    padding: 8px 8px 4px 4px;
+  }
+    .name {
+      font-size: 40px;
+    }
+  
+    .position {
+      font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px){
+body{
+  padding: 0;
+}
+
+.main-content{
+  padding: auto;
+}
+
+.name{
+  font-size: 28px;
+}
+
+.position{
+  font-size: 20px;
+}
+}
+
+@media screen and (max-width: 555px){
+  .wrapper{
+    flex-direction: column;
+  }
+
+  .sidebar{
+    width: 100%;
+  }
+}
